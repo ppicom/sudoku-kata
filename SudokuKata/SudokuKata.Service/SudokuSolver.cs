@@ -1,8 +1,16 @@
 ﻿using System.Text;
+using SudokuKata.Service.Rand;
 
 namespace SudokuKata.Service;
 public class SudokuSolver
 {
+    private RandomIntegers random;
+
+    public SudokuSolver(RandomIntegers random)
+    {
+        this.random = random;
+    }
+
     public void Play()
     {
         #region Construct fully populated board
@@ -99,7 +107,7 @@ public class SudokuSolver
                             break;
                         }
 
-                        int randomValue = rng.Next();
+                        int randomValue = this.random.Next();
 
                         if (bestCandidatesCount < 0 ||
                             candidatesCount < bestCandidatesCount ||
