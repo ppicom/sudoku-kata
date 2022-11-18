@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuKata.Front", "SudokuKata.Front\SudokuKata.Front.csproj", "{79677929-6E15-411F-924D-D66DCC4E6634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuKata.Service", "SudokuKata.Service\SudokuKata.Service.csproj", "{5996C976-529B-46D6-855D-7E1A335F4D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuKata.Test", "SudokuKata.Test\SudokuKata.Test.csproj", "{7A71FFBF-1DA7-4A80-883A-174B1AF2A733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79677929-6E15-411F-924D-D66DCC4E6634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79677929-6E15-411F-924D-D66DCC4E6634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79677929-6E15-411F-924D-D66DCC4E6634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79677929-6E15-411F-924D-D66DCC4E6634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5996C976-529B-46D6-855D-7E1A335F4D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5996C976-529B-46D6-855D-7E1A335F4D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5996C976-529B-46D6-855D-7E1A335F4D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5996C976-529B-46D6-855D-7E1A335F4D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A71FFBF-1DA7-4A80-883A-174B1AF2A733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A71FFBF-1DA7-4A80-883A-174B1AF2A733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A71FFBF-1DA7-4A80-883A-174B1AF2A733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A71FFBF-1DA7-4A80-883A-174B1AF2A733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

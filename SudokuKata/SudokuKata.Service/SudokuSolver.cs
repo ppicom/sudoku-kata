@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace SudokuKata.Domain;
+namespace SudokuKata.Service;
 public class SudokuSolver
 {
     public void Play()
@@ -988,3 +988,4 @@ public class SudokuSolver
         }
     }
 }
+

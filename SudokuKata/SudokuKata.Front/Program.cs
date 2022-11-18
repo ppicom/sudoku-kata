@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using SudokuKata.Domain;
+﻿using SudokuKata.Service;
 
 var solver = new SudokuSolver();
 
